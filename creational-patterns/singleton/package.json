@@ -1,0 +1,26 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsc && npx node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bituhh/design-patterns.git"
+  },
+  "author": "Victor Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bituhh/design-patterns/issues"
+  },
+  "homepage": "https://github.com/Bituhh/design-patterns#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "node": "^19.6.0"
+  }
+}
