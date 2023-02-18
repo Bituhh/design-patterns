@@ -1,6 +1,6 @@
 import {Animal, AnimalType} from './animal';
 
-export class Dog implements Animal {
+export class Dog extends Animal {
 
   readonly type: AnimalType = AnimalType.Dog;
 
